@@ -32,7 +32,7 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient>
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5062F88A:202A:27EAE9AA:54E1DFBA" name="octolytics-dimension-request_id" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5062F88A:202B:2E8B07ED:54E1DFFA" name="octolytics-dimension-request_id" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
 
@@ -42,7 +42,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="ASlNmqF4e+g/WG5XHw9a3NueDldCk5/JvgFYXL36X1z/4M+uIohjXqEMRcmWX7jISrWavSW0dWK5ug+ZY7+Arw==" name="csrf-token" />
+<meta content="ZYjdVHAWgBw0RH1EmUVx9/s+pn6rezlwyLUYhkdsK5O+CoW+Cy74OascYO7LR0b8xo4KFaEFFRrEmEw5Jn5Y/Q==" name="csrf-token" />
 
     <link href="https://assets-cdn.github.com/assets/github-7f7a8d43d99dce26334cc1cb3b327f57a9309f9d6f215d6f3dff77d5e0c593a3.css" media="all" rel="stylesheet" />
     <link href="https://assets-cdn.github.com/assets/github2-001b8ff6b9af1d78d785feee91eaacf441aa9c531b0b1ad513b01221d194cb1d.css" media="all" rel="stylesheet" />
@@ -495,7 +495,7 @@
     </a>
 
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.03534s from github-fe132-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.02884s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
