@@ -34,11 +34,28 @@ function convertNumeral(number) {
     }
 
     if (number >= 100 && number <= 999) {
-        /*
         var digit1 = parseInt(number.toString()[0]);
         var digit2 = parseInt(number.toString()[1]);
         var digit3 = parseInt(number.toString()[2]);
-        */
+        
+        words = unitsMap[digit1]
+            + " hundred and "
+            + convertNumeral(digit2 * 10 + digit3);
+    }
+    
+    if (number >= 1000 && number <= 9999) {
+        var digit1 = parseInt(number.toString()[0]);
+        var digit2 = parseInt(number.toString()[1]);
+        var digit3 = parseInt(number.toString()[2]);
+        var digit4 = parseInt(number.toString()[3]);
+        
+        if (digit2 == 0) {
+            words = unitsMap[digit1] + " thousand "
+        } else {
+            words = convertNumeral(digit1 * 10 + digit2) + " hundred "
+        }
+        
+        words += "and " + convertNumeral(digit3 * 10 + digit4);
     }
     
     return words;    
